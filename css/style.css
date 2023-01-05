@@ -8,12 +8,46 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1200px;
+    display: flex;
+    flex-direction: row;
 }
 
-hr {
-    border-top: 1px solid rgb(197, 197, 197);
+.block-1 {
+    margin-right: 200px;
 }
 
-.code-back {
-    background-color: rgba(210, 209, 243, 0.13);
+.block-1 h3 {
+    color: black;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.block-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-2 a {
+    text-decoration: none;
+}
+
+.block-2 p, li, a, h3 {
+    color: #73808D;
+}
+
+.block-2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.block-2 li {
+    margin-top: 5px;
+}
+
+.block-2 h3 {
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
